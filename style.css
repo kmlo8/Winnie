@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.main-box {
+    width: 80%;
+    margin: 3em auto;
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+
+
+
+.pic-it {
+    width: 389px;
+    float: right;
+}
+
+.phag {
+
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+h2 {
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.about-me {
+    width: 500px;
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.icon-box {
+    padding-top: 30px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.icon {
+    width: 20px;
+}
+
+.youtube-box {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    position: relative;
+    top: -140px;
+
+}
+
+.upper {
+    height: 70px;
+}
+
+.txt {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.txt-frame {
+    border: 2px solid pink;
+    padding: 20px;
+}
